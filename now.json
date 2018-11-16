@@ -1,5 +1,9 @@
 {
   "version": 2,
   "name": "route",
-  "alias": "route.now.sh"
+  "alias": "route.now.sh",
+  "routes": [
+    { "src": "/me", "dest": "https://sankarsankampa.com" },
+    { "src": "/snkrsn", "status": 301, "headers": { "Location": "https://sankarsankampa.com/" } }
+  ]
 }
